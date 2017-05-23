@@ -1,0 +1,43 @@
+.sectionFooter{
+  padding: 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+}
+
+.sectionFooter .contact{
+  flex-basis: 30%;
+}
+
+.contact h2{
+  font-size: 1em;
+}
+
+.contact p{
+  font-size: .6em;
+}
+
+.sectionFooter .follow{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 30%;
+}
+
+.follow h2{
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.follow button{
+  padding: 1em 1.5em;
+  width: 45%;
+}
+
+.sectionFooter .legal{
+  font-size: .6em;
+  flex-basis: 30%;
+}

@@ -1,0 +1,69 @@
+#sectionRegistro{
+  padding: 5% 5%;
+  background: #0a0a3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form{
+  flex-basis: 40%;
+  padding-right: 10%;
+  border-right: 1px solid lightblue;
+}
+
+.formCadastro{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.formCadastro label{
+  width: 100%;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.formCadastro label:nth-of-type(4){
+  flex-direction: row;
+  align-items: center;
+}
+
+.formCadastro input[type="text"],
+ .formCadastro input[type="email"]{
+   padding: .5em;
+ }
+
+ .formCadastro input[type="checkbox"]{
+   margin-right: 1em;
+ }
+
+ button{
+   background-color: #0a0a3d;
+   border-top-right-radius: 30px;
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border: 1px solid lightblue;
+   color: white;
+   padding: 1em 1.5em;
+   cursor: pointer;
+ }
+
+ .registroSocial{
+   flex-basis: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .registroSocial span{
+   margin: 1em 0;
+ }
+
+ .registroSocial button{
+   padding: 1em 3em;
+ }
